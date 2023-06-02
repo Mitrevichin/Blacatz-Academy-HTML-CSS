@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-image: radial-gradient(circle, white, #A3C6C4)
+}
+
+/* HEADER */
+.header {
+    width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(to top, #A3C6C4, #00ade5, #18345a)
+}
+
+.nav {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: #18345a;
+    position: sticky;
+    top: 0;
+}
+
+.nav-links li {
+    display: inline;
+    padding: 0 70px 0 70px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.nav-links li a:hover {
+    color: #00ade5;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 32px;
+    text-align: center;
+    height: 330px;
+    padding-top: 100px;
+}
+
+.text h1 {
+    font-size: 50px;
+    text-shadow: 4px 4px 15px rgb(30, 22, 0);
+    color: white;
+}
+
+.text p {
+    padding-top: 15px;
+    font-weight: 600;
+    color: #18345a;
+}
+
+/* HEADER END */
+
+/* MAIN */
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* MAIN END */
+
+/* SUBSCRIBE SECTION */
+.subscribe {
+    margin: 50px 115px 50px 115px;
+    padding: 0 0 45px 0;
+}
+
+.subscribe-left {
+    float: left;
+}
+
+.subscribe-right {
+    float: right;
+}
+
+.subscribe-left h3 {
+    font-size: 25px;
+    color: #18345a;
+}
+
+.labeltext {
+    font-size: 20px;
+    background: #18345a;
+    padding: 8px 40px 8px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.labeltext:hover {
+    background-color: #00ade5;
+}
+
+.subscribe-right div input {
+    margin-right: 50px;
+    padding: 5px 110px 5px 5px;
+    border: 1px solid rgb(220, 221, 193);
+    border-radius: 4px;
+    font-size: larger;
+    box-shadow: 2px 2px 4px #18345a;
+}
+
+.subscribe-right div input::placeholder {
+    color: #18345a;
+    font-weight: 500;
+}
+
+/* SUBSCRIBE SECTION END */
+
+/* IMAGES SECTION */
+.img1 {
+    width: 100%;
+    height: 475px;
+    border: 2px solid white;
+}
+
+.img2,
+.img3 {
+    width: 100%;
+    height: 225px;
+    border: 2px solid white;
+}
+
+.image-above {
+    margin-bottom: 22px;
+}
+
+.image-left {
+    float: left;
+    width: 68%;
+}
+
+.images-right {
+    float: right;
+    width: 30%;
+}
+
+.images {
+    margin: 30px 115px 50px 115px;
+}
+
+/* IMAGES SECTION END */
+
+/* MOTIVATION SECTION */
+.motivation {
+    margin: 10px 0 30px 115px;
+}
+
+.motivation-above {
+    width: 100%;
+    margin: 25px 0 0 0;
+}
+
+.motivation-beneath {
+    margin-top: 25px;
+}
+
+.img4,
+.img5 {
+    width: 300px;
+    border: 3px solid #00ade5;
+    border-radius: 10px 0 10px 0;
+}
+
+.img-left-above,
+.img-left-beneath {
+    width: 25%;
+    float: left;
+}
+
+.text-right-above,
+.text-right-beneath {
+    float: left;
+    margin: 40px 0 0 0;
+}
+
+.text-right-above h4,
+.text-right-beneath h4 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    color: #18345a;
+}
+
+.text-right-above p,
+.text-right-beneath p {
+    font-size: 20px;
+    color: #18345a;
+}
+
+/* MOTIVATION SECTION END */
+
+/* BUTTON */
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    margin: 35px 0 35px 0;
+    padding: 15px 45px 15px 45px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    background-color: #18345a;
+}
+
+.btn button:hover {
+    background-color: #00ade5;
+    color: white;
+}
+
+/* BUTTON END*/
+

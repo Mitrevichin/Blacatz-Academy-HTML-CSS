@@ -1,0 +1,352 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+/*************************************FIRST PAGE CONTAINER********************************************/
+.first-page-container {
+    width: 100%;
+    height: 100%;
+}
+
+.inner-above-container {
+    height: 53%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.402), rgba(0, 0, 0, 0.402)), url('/image1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/**********HEADER**********/
+header {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.header-left {
+    width: 30%;
+    float: left;
+    margin-top: 7px;
+}
+
+.header-left .logo {
+    color: #58E970;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.header-right {
+    width: 70%;
+    float: right;
+    margin-top: 10px;
+}
+
+.header-right .menu {
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+}
+
+.header-right .menu li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.header-right .menu li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header-right .menu li a:hover {
+    opacity: 0.6;
+}
+/**********HEADER END**********/
+
+/**********MIDDLE TEXT**********/
+.middle-text {
+    text-align: center;
+    padding-top: 90px;
+    line-height: 18px;
+}
+
+.middle-text h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 32px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.middle-text h2 {
+    color: #58E970;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.middle-text button {
+    background-color: transparent;
+    color: #58E970;
+    padding: 10px 20px 10px 20px;
+    border: #58E970 1px solid;
+    margin-top: 1px;
+    opacity: 0.8;
+    font-weight: 400;
+    font-size: 15px
+    
+}
+/**********MIDDLE TEXT END**********/
+
+.inner-beneath-container {
+    width: 100%;
+    height: 47%;
+}
+/**********WHY US**********/
+.why-us {
+text-align: center;
+text-transform: uppercase;
+}
+
+.why-us h6 {
+    font-size: 22px;
+    font-weight: 400;
+    margin: 35px 0 0 0;
+}
+
+.why-us .par {
+    font-size: 10px;
+    color: #58E970;
+}
+/**********WHY US END**********/
+
+/**********REASONS**********/
+.reasons {
+    width: 64%;
+    position: relative;
+    left: 340px;
+    margin: 20px 5px 0 32px;
+}
+
+.best-prices, .many-destinations, .best-quality {
+    border: 2px solid gray;
+    box-shadow: 1px 1px gray;
+    width: 23%;
+    text-align: center;
+    padding: 30px 15px 30px 15px;
+    float: left;
+    margin-right: 15px
+}
+
+.img3, .img4, .img5 {
+    width: 60px;
+    height: 60px;
+    padding-bottom: 10px;
+}
+
+.reasons-text {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+/**********REASONS END**********/
+
+/**********BUTTON**********/
+.btn {
+    text-align: center;
+    margin: 30px 0 0 35px
+}
+
+.btn button {
+    border: 1px solid  #aadeda;
+    color:   #aadeda;
+    padding: 8px 25px 8px 25px;
+    background-color: white;
+}
+/**********BUTTON END**********/
+/*********************************FIRST PAGE CONTAINER END***************************************/
+
+/*********************************SECONG PAGE ABOVE CONTAINER***************************************/
+.second-page-above-container {
+    width: 100%;
+    height: 47%;
+    background-image: url('/image2.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.boat {
+    background-color: rgba(0, 0, 0, 0.646);
+    height: 100%;
+}
+
+.boat-text {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.boat-text h2,p {
+    color: white;
+}
+
+.boat-text p {
+    padding-bottom: 30px;
+    line-height: 25px;
+}
+
+.boat-text h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.read-more-second-page {
+    background-color: transparent;
+    color: #58E970;
+    border: 1px solid #58E970;
+    margin-left: 22px;
+    padding: 8px 25px 8px 25px;
+    font-size: 14px;
+}
+/*********************************SECONG PAGE ABOVE CONTAINER END*************************************/
+
+/*********************************SECONG PAGE BENEATH CONTAINER***************************************/
+.second-page-beneat-container {
+    width: 100%;
+    height: 53%;
+}
+
+.contact-us {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.contact-us h4 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.contact-us p {
+    font-size: 12px;
+    opacity: 0.7;
+    color: black;
+}
+
+.data {
+    background-color: #a7a5a7;
+    width: 50%;
+    margin: 35px auto;
+    border-radius: 15px;
+}
+
+table {
+    padding: 20px;
+}
+
+input {
+    padding: 8px 0 8px 5px;
+    background-color: #a7a5a7;
+    border: #58E970 1px solid;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+input::placeholder {
+    color: white;
+    padding: 10px
+}
+
+table, input{
+    width: 100%;
+}
+    
+#message {
+    padding: 20px 0 20px 5px;
+    margin-bottom: 1px;
+}
+
+.btn-second-page {
+    text-align: center;
+}
+
+.btn-second-page button {
+    color: white;
+    background-color: #58E970;
+    text-transform: uppercase;
+    padding: 10px 60px 10px 60px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    border: unset;
+}
+/*******************************SECONG PAGE BENEATH CONTAINER END*************************************/
+
+/************************************THIRD PAGE CONTAINER******************************************/
+.thir-page-container {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 40%;
+    background-color: rgb(27, 24, 24);
+    margin-top: 100px;
+}
+
+.logo-footer {
+    color: #58E970;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 550;
+    padding-bottom: 7px;
+}
+
+.text-footer {
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.final {
+    text-align: center;
+   padding-top: 60px;
+   line-height: 35px;
+}
+
+#enter-email {
+    width: 30%;
+   background-color: white;
+   border-radius: 20px;
+   border: unset;
+}
+
+#enter-email::placeholder {
+color: black;
+opacity: 0.7;
+}
+
+.subscribe-form {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.btn-footer {
+    padding-top: 10px;
+}
+
+.btn-footer button {
+    color: white;
+    background-color: #58E970;
+    padding: 5px 35px 5px 35px;
+    border-radius: 25px;
+}
+/************************************THIRD PAGE CONTAINER END******************************************/

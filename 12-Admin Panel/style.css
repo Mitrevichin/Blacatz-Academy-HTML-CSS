@@ -1,0 +1,545 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.mc {
+    color: #9d9d9d;
+}
+
+.mcs {
+    color: #838285;
+}
+
+body {
+    height: 100%;
+    background-color: #e7ebee;
+    overflow: hidden;
+}
+
+/************* HEADER ***************/
+header {
+    height: 48px;
+    background-color: white;
+    border-bottom: 1px #e7ebee double;
+}
+
+.header-left {
+    float: left;
+    margin: 6px 0 10px 20px;
+}
+
+.search {
+    background: #edeef0;
+    border-radius: 25px;
+}
+
+.search>input {
+    border: none;
+    background: #edeef0;
+    padding: 12px 60px 6px 12px;
+    border-radius: 25px
+}
+
+.search>input:focus {
+    outline: none;
+}
+
+.header-left>h4 {
+    margin-right: 120px;
+}
+
+.header-right {
+    float: right;
+    margin-right: 20px;
+}
+
+.admin {
+    vertical-align: top;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+
+.search,
+h4,
+.adm-icon {
+    display: inline-block;
+}
+
+.search>img {
+    width: 35px;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+.adm-icon>img {
+    width: 37px;
+    margin: 7px;
+    margin-top: 5px;
+}
+
+/************* HEADER END ***************/
+/*************** ASIDE ****************/
+aside {
+    position: fixed;
+    height: 660px;
+    width: 260px;
+    background-color: white;
+    border-right: 1px solid #dbd9dd;
+}
+
+.aside-container {
+    margin: 7px 23px 0 23px;
+}
+
+.panel {
+    margin-bottom: 15px;
+}
+
+.panel-heading {
+    text-transform: uppercase;
+    color: #485ba7;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.panel-inner {
+    margin-top: 10px;
+    background-color: #e1f3ff;
+    padding: 7px;
+}
+
+.panel-inner span {
+    padding-top: 1px;
+}
+
+.panel-icon {
+    display: inline-block;
+}
+
+.panel-icon>img {
+    width: 25px;
+}
+
+.panel-inner>span {
+    margin-left: 6px;
+    margin-top: 6px;
+    vertical-align: top;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.panel-element-heading {
+    text-transform: uppercase;
+    color: #485ba7;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.panel-elements ul li {
+    margin-left: 20px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+ul li a span {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 4px;
+    font-size: 13.4px;
+}
+
+ul li a img {
+    width: 20.4px;
+}
+
+/*************** ASIDE END ****************/
+
+/*************** MAIN ****************/
+main {
+    padding-left: 255px;
+    height: 607px;
+    width: 100%;
+}
+
+/****** STATISTICS FIRST ROW *****/
+.statistics-rirst-row {
+    width: 100%;
+    margin-left: 15px;
+    position: relative;
+    bottom: 2px;
+}
+
+.statistics-1,
+.statistics-2,
+.statistics-3 {
+    width: 30.2%;
+    background-color: #81007f;
+    margin: 15px;
+    border-radius: 5px;
+    float: left;
+}
+
+.statistics-2 {
+    background-color: #55d4ff;
+}
+
+.statistics-3 {
+    background-color: #008001;
+}
+
+.statistics-1-inner,
+.statistics-2-inner,
+.statistics-3-inner {
+    padding: 15px 10px 15px 10px;
+    color: white;
+
+}
+
+.statistics-1-inner h5,
+span {
+    display: inline-block;
+}
+
+.statistics-2-inner h5,
+span {
+    display: inline-block;
+}
+
+.statistics-3-inner h5,
+span {
+    display: inline-block;
+}
+
+.statistics-1-inner span {
+    position: relative;
+    left: 217px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.statistics-2-inner span {
+    position: relative;
+    left: 257px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.statistics-3-inner span {
+    position: relative;
+    left: 257px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/****** STATISTICS FIRST ROW END*****/
+
+/****** STATISTICS SECOND ROW *****/
+.statistics-second-row {
+    width: 100%;
+    margin-left: 15px;
+    position: relative;
+    bottom: 10px;
+}
+
+.statistics-second-row-1,
+.statistics-second-row-2,
+.statistics-second-row-3 {
+    width: 30.2%;
+    background-color: white;
+    margin: 15px;
+    border-radius: 5px;
+    float: left;
+}
+
+.statistics-1-second-row-inner,
+.statistics-2-second-row-inner,
+.statistics-3-second-row-inner {
+    padding: 15px 10px 15px 10px;
+    color: rgb(133, 128, 128);
+}
+
+.statistics-1-second-row-inner h5,
+span {
+    display: inline-block;
+}
+
+.statistics-2-second-row-inner h5,
+span {
+    display: inline-block;
+}
+
+.statistics-3-second-row-inner h5,
+span {
+    display: inline-block;
+}
+
+.statistics-1-second-row-inner span {
+    position: relative;
+    left: 195px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #69a787;
+}
+
+.statistics-2-second-row-inner span {
+    position: relative;
+    left: 265px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #d9be47;
+}
+
+.statistics-3-second-row-inner span {
+    position: relative;
+    left: 215px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ca5f7c;
+}
+
+/****** STATISTICS SECOND ROW END*****/
+
+/****** MIDDLE *****/
+.middle {
+    margin: 10px 30px 10px 30px;
+    position: relative;
+    bottom: 12px;
+    height: 230px;
+}
+
+.table-img {
+    width: 40px;
+}
+
+table {
+    width: 100%;
+    border: none;
+    background-color: white;
+    line-height: 12px;
+}
+
+table tr:nth-child(3) {
+    background-color: #f7f7f7;
+}
+
+table tr:nth-child(5) {
+    background-color: #f7f7f7;
+}
+
+td .name-above {
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: left;
+}
+
+tr span:first-child {
+    padding: 13px;
+    font-size: 12px;
+}
+
+tr>th {
+    padding: 10px;
+}
+
+tr>th:nth-child(2) {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+td>img,
+span {
+    padding: 3px;
+    vertical-align: middle;
+}
+
+td button {
+    color: white;
+    background-color: #3f68dd;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+td strong p {
+    line-height: 20px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+tr td span {
+    font-size: 14px;
+}
+
+.status {
+    font-size: 9px;
+}
+
+.status-1 {
+    background-color: #fdb429;
+    color: black;
+    font-weight: 600;
+}
+
+.status-2 {
+    background-color: #33bc70;
+}
+
+.status-3 {
+    background-color: #e82357;
+}
+
+.status-4 {
+    background-color: #1ba9fb;
+}
+
+.border {
+    border-bottom: 1px solid rgb(217, 214, 214);
+}
+
+.size {
+    font-size: 13.4px;
+}
+
+/****** MIDDLE END*****/
+
+/*********** PERCENTAGE CONTAINER *********/
+.percentage-container {
+    width: 100%;
+    margin-left: 8px;
+    position: relative;
+    top: 10px;
+}
+
+.first-box {
+    width: 22.7%;
+    height: 63px;
+    float: left;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.blanket {
+    padding: 8px;
+}
+
+.first-box-left {
+    float: left;
+    width: 20%;
+}
+
+.first-box-left p {
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.first-box-left span {
+    color: #1ba9fb;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.first-box-left .greeny {
+    color: #40c17c;
+}
+
+.first-box-left .orange-third {
+    color: #fdb430;
+}
+
+.first-box-left .red-fourth {
+    color: #d22850;
+}
+
+.first-box-right {
+    background-color: silver;
+    height: 13px;
+    width: 77%;
+    float: right;
+    margin-top: 10px;
+}
+
+.blue {
+    background-color: #1ba9fb;
+    height: 13px;
+    width: 27%;
+}
+
+.green {
+    background-color: #40c17c;
+    height: 13px;
+    width: 53%;
+}
+
+.orange {
+    background-color: #fdb430;
+    height: 13px;
+    width: 36%;
+}
+
+.red {
+    background-color: #d22850;
+    height: 13px;
+    width: 36%;
+}
+
+/*********** PERCENTAGE CONTAINER END *********/
+/*************** MAIN END ****************/
+
+/*************** FOOTER ****************/
+footer {
+    padding-left: 260px;
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.left-part {
+    float: left;
+    margin: 6px 0 10px 10px;
+}
+
+.left-part h6 {
+    margin-left: 13px;
+}
+
+.right-part {
+    float: right;
+    margin: 6px 17px 10px 0;
+}
+
+.right-part h6 {
+    margin-right: 13px;
+}
+
+footer h6 {
+    display: inline-block;
+    font-size: 10px;
+}
+
+/*************** FOOTER END****************/

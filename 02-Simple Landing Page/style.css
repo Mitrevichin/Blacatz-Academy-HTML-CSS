@@ -1,0 +1,90 @@
+/****** 01-Task ******/
+
+.clear {
+    clear: both;
+}
+
+.about {
+    margin-left: 10px;
+}
+
+.background {
+    background-image: url("/image1.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.Par1 {
+    float: left;
+    width: 49%;
+}
+
+.Par2 {
+    float: right;
+    width: 49%;
+    margin-left: 2%;
+}
+
+.section {
+    margin-top: 25px;
+}
+
+.table1 {
+    float: left;
+    width: 49%;
+    border-collapse: collapse;
+}
+
+.table2 {
+    float: right;
+    width: 49%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: rgb(206, 195, 195);
+}
+
+h3 {
+    font-weight: 300px;
+}
+
+.Par3 {
+    float: left;
+    width: 49%;
+}
+
+.Par4 {
+    float: right;
+    width: 49%;
+}
+
+.image10 {
+    float: left;
+    width: 24%;
+    margin: 20px 4px 20px 4px;
+}
+
+img {
+    width: 100%;
+    height: 50%;
+}
+
+
