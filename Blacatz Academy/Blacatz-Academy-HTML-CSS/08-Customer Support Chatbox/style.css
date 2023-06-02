@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #add9e6;
+}
+
+.container {
+    width: 30%;
+    height: 100%;
+    margin: 10px auto;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+}
+
+.box {
+    position: relative;
+    border-radius: 20px;
+}
+
+/***BOX HEADER***/
+
+.box-header {
+    background-color: #1c2632;
+    height: 95px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.box-header-left .p-10 {
+    float: left;
+   margin: 10px 7px 10px 10px;
+}
+
+.box-header-right .p-10 {
+    float: left;
+    margin: 10px 0 0 12px; 
+}
+
+.username {
+    color: white;
+    font-size: 25px;
+}
+
+.status {
+    color: rgb(122, 237, 84);
+    font-size: 20px;
+}
+
+.img {
+    height: 70px;
+    width: 70px;
+    border-radius: 100px;
+}
+
+/***BOX HEADER END***/
+
+/***BOX BODY***/
+
+.box-body {
+    background-color: #ffffff;
+    height: 500px;
+    clear: both;
+}
+
+.they-left {
+    float: left;
+    margin: 10px 10px 0 10px;
+}
+
+.chat-img {
+    height: 55px;
+    width: 55px;
+    border-radius: 100px;
+}
+
+.they-right {
+    float: left;
+    margin: 10px 0 0 5px;
+}
+
+.they-msg {
+    background-color: #000a18;
+    border-radius: 20px;
+    padding: 15px;
+    color: #d4c2c2;
+}
+
+.time {
+    margin: 5px 0 5px 15px;
+}
+
+.us {
+    float: right;
+    background-color:#12c27f;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0 10px 0 0;
+    color: white;
+}
+
+/***BOX BODY END***/
+
+.box-footer {
+    position: absolute;
+    bottom: 1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #1c2632;
+    width: 100%;
+}
+
+.message-field {
+    border: 0;
+    padding: 25px;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+}
